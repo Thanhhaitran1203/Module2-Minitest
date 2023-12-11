@@ -78,18 +78,18 @@ public class Main {
         System.out.println(result);
     }
     public static void drawIsoscelesTriangle(){
-//        String result = "";
-//        int[] arr;
-//        arr = getData();
-//        for (int i = 1; i <= 5; i++) {
-//            for (int j = 0; j <= 5-i; j++) {
-//                result += " ";
-//            }
-//            for (int j = 1; j <= 2 * i -1; j++) {
-//                result += "*";
-//            }
-//            result += "\n";
-//        }
-//        System.out.println(result);
+        String result = "";
+        int[] arr;
+        arr = getData();
+        for (int i = 1; i <= 5; i++) {
+            for (int j = 0; j <= 5-i; j++) {
+                result += " ";
+            }
+            for (int j = 1; j <= 2 * i -1; j++) {
+                result += "*";
+            }
+            result += "\n";
+        }
+        System.out.println(result);
     }
 }
